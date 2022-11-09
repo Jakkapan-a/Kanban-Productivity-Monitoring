@@ -56,6 +56,16 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.userControlPanelOutput2 = new Kanban.Components.UserControlPanelOutput();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.userControlPanelOutput3 = new Kanban.Components.UserControlPanelOutput();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.userControlPanelOutput4 = new Kanban.Components.UserControlPanelOutput();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.userControlPanelOutput5 = new Kanban.Components.UserControlPanelOutput();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.userControlPanelOutput6 = new Kanban.Components.UserControlPanelOutput();
             this.statusStrip1.SuspendLayout();
             this.pHeader.SuspendLayout();
             this.pFooter.SuspendLayout();
@@ -66,6 +76,11 @@
             this.pLeft.SuspendLayout();
             this.tableLayoutPanelLeft.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -351,6 +366,11 @@
             this.tableLayoutPanelLeft.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanelLeft.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanelLeft.Controls.Add(this.groupBox1, 0, 0);
+            this.tableLayoutPanelLeft.Controls.Add(this.groupBox2, 1, 0);
+            this.tableLayoutPanelLeft.Controls.Add(this.groupBox3, 0, 1);
+            this.tableLayoutPanelLeft.Controls.Add(this.groupBox4, 1, 1);
+            this.tableLayoutPanelLeft.Controls.Add(this.groupBox5, 0, 2);
+            this.tableLayoutPanelLeft.Controls.Add(this.groupBox6, 1, 2);
             this.tableLayoutPanelLeft.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelLeft.Location = new System.Drawing.Point(1, 1);
             this.tableLayoutPanelLeft.Name = "tableLayoutPanelLeft";
@@ -418,6 +438,151 @@
             this.button3.Text = "CLEAR ALL";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.userControlPanelOutput2);
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Location = new System.Drawing.Point(184, 3);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(0);
+            this.groupBox2.Size = new System.Drawing.Size(182, 123);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            // 
+            // userControlPanelOutput2
+            // 
+            this.userControlPanelOutput2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlPanelOutput2.LbFooterText = "[PCS]";
+            this.userControlPanelOutput2.LbFooterTextFontSize = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput2.LbFooterTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput2.LbOutputFontSize = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput2.LbOutputForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput2.LbOutputText = "Output";
+            this.userControlPanelOutput2.lbTitleText = "Title";
+            this.userControlPanelOutput2.lbTitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput2.lbTitleTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput2.Location = new System.Drawing.Point(0, 13);
+            this.userControlPanelOutput2.Name = "userControlPanelOutput2";
+            this.userControlPanelOutput2.Size = new System.Drawing.Size(182, 110);
+            this.userControlPanelOutput2.TabIndex = 0;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.userControlPanelOutput3);
+            this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox3.Location = new System.Drawing.Point(3, 126);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(0);
+            this.groupBox3.Size = new System.Drawing.Size(181, 123);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            // 
+            // userControlPanelOutput3
+            // 
+            this.userControlPanelOutput3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlPanelOutput3.LbFooterText = "[PCS]";
+            this.userControlPanelOutput3.LbFooterTextFontSize = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput3.LbFooterTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput3.LbOutputFontSize = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput3.LbOutputForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput3.LbOutputText = "Output";
+            this.userControlPanelOutput3.lbTitleText = "Title";
+            this.userControlPanelOutput3.lbTitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput3.lbTitleTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput3.Location = new System.Drawing.Point(0, 13);
+            this.userControlPanelOutput3.Name = "userControlPanelOutput3";
+            this.userControlPanelOutput3.Size = new System.Drawing.Size(181, 110);
+            this.userControlPanelOutput3.TabIndex = 0;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.userControlPanelOutput4);
+            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox4.Location = new System.Drawing.Point(184, 126);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(0);
+            this.groupBox4.Size = new System.Drawing.Size(182, 123);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            // 
+            // userControlPanelOutput4
+            // 
+            this.userControlPanelOutput4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlPanelOutput4.LbFooterText = "[PCS]";
+            this.userControlPanelOutput4.LbFooterTextFontSize = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput4.LbFooterTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput4.LbOutputFontSize = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput4.LbOutputForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput4.LbOutputText = "Output";
+            this.userControlPanelOutput4.lbTitleText = "Title";
+            this.userControlPanelOutput4.lbTitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput4.lbTitleTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput4.Location = new System.Drawing.Point(0, 13);
+            this.userControlPanelOutput4.Name = "userControlPanelOutput4";
+            this.userControlPanelOutput4.Size = new System.Drawing.Size(182, 110);
+            this.userControlPanelOutput4.TabIndex = 0;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.userControlPanelOutput5);
+            this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox5.Location = new System.Drawing.Point(3, 249);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(0);
+            this.groupBox5.Size = new System.Drawing.Size(181, 125);
+            this.groupBox5.TabIndex = 0;
+            this.groupBox5.TabStop = false;
+            // 
+            // userControlPanelOutput5
+            // 
+            this.userControlPanelOutput5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlPanelOutput5.LbFooterText = "[PCS]";
+            this.userControlPanelOutput5.LbFooterTextFontSize = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput5.LbFooterTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput5.LbOutputFontSize = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput5.LbOutputForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput5.LbOutputText = "Output";
+            this.userControlPanelOutput5.lbTitleText = "Title";
+            this.userControlPanelOutput5.lbTitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput5.lbTitleTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput5.Location = new System.Drawing.Point(0, 13);
+            this.userControlPanelOutput5.Name = "userControlPanelOutput5";
+            this.userControlPanelOutput5.Size = new System.Drawing.Size(181, 112);
+            this.userControlPanelOutput5.TabIndex = 0;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.userControlPanelOutput6);
+            this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox6.Location = new System.Drawing.Point(184, 249);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(0);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(0);
+            this.groupBox6.Size = new System.Drawing.Size(182, 125);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            // 
+            // userControlPanelOutput6
+            // 
+            this.userControlPanelOutput6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlPanelOutput6.LbFooterText = "[PCS]";
+            this.userControlPanelOutput6.LbFooterTextFontSize = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput6.LbFooterTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput6.LbOutputFontSize = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput6.LbOutputForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput6.LbOutputText = "Output";
+            this.userControlPanelOutput6.lbTitleText = "Title";
+            this.userControlPanelOutput6.lbTitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userControlPanelOutput6.lbTitleTextForeColor = System.Drawing.SystemColors.ControlText;
+            this.userControlPanelOutput6.Location = new System.Drawing.Point(0, 13);
+            this.userControlPanelOutput6.Name = "userControlPanelOutput6";
+            this.userControlPanelOutput6.Size = new System.Drawing.Size(182, 112);
+            this.userControlPanelOutput6.TabIndex = 0;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -444,6 +609,11 @@
             this.pLeft.ResumeLayout(false);
             this.tableLayoutPanelLeft.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -479,6 +649,16 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private Components.UserControlPanelOutput userControlPanelOutput2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private Components.UserControlPanelOutput userControlPanelOutput3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private Components.UserControlPanelOutput userControlPanelOutput4;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private Components.UserControlPanelOutput userControlPanelOutput5;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private Components.UserControlPanelOutput userControlPanelOutput6;
     }
 }
 
